@@ -32,20 +32,24 @@ RSpec.describe Pirate do
 
     pirate.commit_heinous_act
     expect(pirate.cursed?).to be false
-
     pirate.commit_heinous_act
     expect(pirate.cursed?).to be true
   end
 
   it 'has a booty' do
     # create a pirate
+    pirate = Pirate.new('Johnathan')
     # check that the pirate starts with 0 booty
+    expect(pirate.booty).to be 0
   end
 
   it 'gets 100 booty for robbing a ship' do
     # create a pirate
+    pirate = Pirate.new('Jimothy')
     # rob some ships
-    # check that the pirate got 100 booty for each ship it robbed
+    expect(pirate.robs_ships).to be true
+    # # check that the pirate got 100 booty for each ship it robbed
+    expect(pirate.booty).to be 100
   end
 
 end
