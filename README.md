@@ -18,7 +18,7 @@ Each folder in this repository is a set of related exercises. Open up the folder
 
 You don't need to fork this repository; clone it to your laptop
 
-in your `/turing` directory on your laptop (or whatever directory you want this repository to live inside of), run:
+in your `/turing` directory on your lapÂtop (or whatever directory you want this repository to live inside of), run:
 
 ```
 // using ssh keys
