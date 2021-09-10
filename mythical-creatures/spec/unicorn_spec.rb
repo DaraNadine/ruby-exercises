@@ -1,7 +1,7 @@
 require 'rspec'
 require './lib/unicorn'
 
-RSpec.describe Unicorn do
+describe Unicorn do
   it 'has a name' do
     unicorn = Unicorn.new('Robert')
     expect(unicorn.name).to eq('Robert')
